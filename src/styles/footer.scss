@@ -1,0 +1,35 @@
+.style-watch {
+    .footer {
+        .footer-main {
+            background: var(--surface1); // Sets the background color of the footer
+            color: var(--white); // Sets the text color of the footer
+        }
+
+        .has-line-before {
+            &::before {
+                background-color: var(--white); // Sets the background color of the line before the element
+            }
+        }
+
+        .input-block {
+            max-height: 200px; // Set a max height
+            overflow-y: auto; // Allow scrolling if content exceeds max height
+
+            input {
+                background: rgba(255, 255, 255, 0.2); // Sets the input background to white with 20% opacity
+            }
+        }
+
+        .text-black {
+            color: var(--white); // Sets the text color to white (this class name might be misleading)
+        }
+
+        .text-secondary {
+            color: var(--white); // Sets the secondary text color to white
+        }
+
+        svg {
+            fill: var(--white); // Sets the fill color of SVG elements to white
+        }
+    }
+}
