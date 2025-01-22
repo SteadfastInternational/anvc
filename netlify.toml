@@ -6,3 +6,10 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+
+  [[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "<dnraduy4s>"
