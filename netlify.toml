@@ -1,7 +1,6 @@
-[[redirects]]
-  from = "/old-path"
-  to = "/new-path"
-  status = 301
+[build]
+  publish = ".next"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
