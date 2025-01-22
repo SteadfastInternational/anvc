@@ -1,6 +1,6 @@
 [build]
-  publish = ".next"
-  command = "npm run build"
+  publish = "out"  # This is the directory created by next build
+  command = "pnpm run build"
 
 [[redirects]]
   from = "/*"
