@@ -159,7 +159,7 @@ const Checkout = () => {
         };
 
 
-        console.log('Payload being sent to the backend:', JSON.stringify(payload, null, 2));
+     
 
         const token = localStorage.getItem('jwt');
 

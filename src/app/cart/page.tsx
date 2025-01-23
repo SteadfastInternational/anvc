@@ -64,7 +64,7 @@ const Cart = () => {
         setLoading(true);
         setDiscountMessage("");
         try {
-            const response = await axios.post('/verify-code', { code });
+            const response = await axios.post('https://steadfastpadibackend.onrender.com/verify-code', { code });
             if (response.data.success) {
                 const discount = 1; // Apply 1% discount
                 const discountAmount = totalCart * (discount / 100);
