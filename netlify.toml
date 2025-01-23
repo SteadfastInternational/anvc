@@ -1,15 +1,11 @@
 [build]
-  publish = "out"  # This is the directory created by next build
-  command = "pnpm run build"
+  command = "pnpm build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
-
-
-  [[plugins]]
-  package = "netlify-plugin-cloudinary"
-
-  [plugins.inputs]
-  cloudName = "<dnraduy4s>"

@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",  
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
+    "@netlify/plugin-nextjs": "^5.9.4",
     "@phosphor-icons/react": "^2.0.14",
     "axios": "^1.7.9",
     "framer-motion": "^10.17.4",
